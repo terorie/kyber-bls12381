@@ -13,7 +13,7 @@ import (
 
 // Domain comes from the ciphersuite used by the RFC of this name compatible
 // with the paired library > v18
-var Domain = []byte("BLS_SIG_BLS12381G2_XMD:SHA-256_SSWU_RO_NUL_")
+var Domain = []byte("BLS_SIG_BLS12381G2_XMD:SHA-256_SSWU_RO_POP_")
 
 // KyberG2 is a kyber.Point holding a G2 point on BLS12-381 curve
 type KyberG2 struct {
